@@ -1,6 +1,6 @@
-# flutter_app
+# Login-UI
 
-A new Flutter application.
+ A minimal Login Page Design with Dynamic Theme Selection
 
 ## Getting Started
 
