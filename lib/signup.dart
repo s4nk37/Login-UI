@@ -1,20 +1,15 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
+import './main.dart';
 import './login.dart';
-import 'package:flutter/services.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class Signup extends StatefulWidget {
   @override
-  MyAppState createState() {
-    return new MyAppState();
-  }
+  _SignupState createState() => _SignupState();
 }
 
-class MyAppState extends State<MyApp> {
- bool darkTheme = true;
-
+class _SignupState extends State<Signup> {
+  bool darkTheme = true;
+  
   void ok(){
     setState(() {
       if (darkTheme == true) {
@@ -25,14 +20,10 @@ class MyAppState extends State<MyApp> {
   }
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-        statusBarColor: Colors.transparent,
-        ));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: new Scaffold(
-        // backgroundColor: Colors.tealAccent,
-        appBar: AppBar( 
+        appBar: AppBar(
           brightness: Brightness.light,
           backgroundColor: Colors.transparent,
           elevation: 0.0,
@@ -44,7 +35,7 @@ class MyAppState extends State<MyApp> {
             ),
           ],
         ),
-        body: HomeScreen(),
+        body: Center(child: Text('Sanket'),),
       ),
       theme: darkTheme ? ThemeData.light() : ThemeData.dark(),
     );
