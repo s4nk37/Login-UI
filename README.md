@@ -1,6 +1,11 @@
 # Login-UI
 
  A minimal Login Page Design with Dynamic Theme Selection
+ 
+# Screenshots
+
+![alt text](https://github.com/s4nk37/Login-UI/blob/master/Login-Dark.png)
+![alt text](https://github.com/s4nk37/Login-UI/blob/master/Login-Light.png)
 
 ## Getting Started
 
