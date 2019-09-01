@@ -28,5 +28,5 @@ flutter:
         - asset: assets/font/Nunito-ExtraLight.ttf
         - asset: assets/font/Nunito-SemiBold.ttf
   assets:
-    - assets/image/login.png
+    # - assets/image/login.png
     - assets/image/login2.png
